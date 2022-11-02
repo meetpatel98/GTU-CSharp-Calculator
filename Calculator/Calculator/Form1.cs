@@ -102,7 +102,7 @@ namespace Calculator
             result.Width = 330; //set textbox width
 
             DialogResult result1; 
-            result1=MessageBox.Show("Welcome...\n\nDo You Want to Continue ?", "Calculator", MessageBoxButtons.YesNo);
+            result1=MessageBox.Show("Welcome Meet...\n\nDo You Want to Continue ?", "Calculator", MessageBoxButtons.YesNo);
             if (result1==DialogResult.No)
             {
                 Application.Exit();
